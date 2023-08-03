@@ -1,4 +1,6 @@
 # Pneumonia-Detection
 Pneumonia detection using Deep Learning
+
+
 CNN and transfer learning is used to build a model that classifies chest x-rays as those that have pneumonia and those that do not. The dataset that will be used for this project will be the Chest X-Ray Images (Pneumonia) from Kaggle. Anterior-posterior chest X-ray pictures were chosen from retrospective cohorts of children patients aged one to five years old at Guangzhou Women and Children's Medical Center in Guangzhou. All chest X-ray imaging was done as part of the patients' regular medical treatment. To analyze chest x-ray pictures, all chest radiographs were first reviewed for quality control, with any scans that were low quality or illegible being removed. After that, the diagnoses for the photographs were rated by two experts before being approved for use in the AI system. A third expert evaluated the assessment set to make sure there were no grading problems.
 In this project we use a convolution kernel to filter previous pictures or feature maps to create the feature map for the next layer, and then combine this with methods like pooling to reduce feature map size and computation. To increase the model's characterization capabilities, a nonlinear activation function is applied to the generated feature map. 
